@@ -12,3 +12,6 @@ readArchive(fileContent).then((archive) => {
     // archive - instance of JSZip https://stuk.github.io/jszip/documentation/api_jszip.html
 });
 ```
+
+## Thanks
+This module is based on amazing [JSZip](https://stuk.github.io/jszip/documentation/api_jszip.html) library.

@@ -4,7 +4,7 @@
   "description": "JS module for working with archives in file2html",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/jest --no-cache"
+    "test": "./node_modules/.bin/jest --no-cache --config=./node_modules/file2html-dev-tools/jest/config.json"
   },
   "dependencies": {
     "@types/jszip": "0.0.32",
