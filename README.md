@@ -1,4 +1,4 @@
-# file2html-archive
+# file2html-archive-tools
 > JS module for working with archives in file2html
 
 ## Usage
