@@ -4,7 +4,9 @@
   "description": "JS module for working with archives in file2html",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest --no-cache --config=./node_modules/file2html-dev-tools/jest/config.json"
+    "test": "./node_modules/.bin/jest --no-cache --config=./node_modules/file2html-dev-tools/jest/config.json",
+    "lint": "./node_modules/.bin/tslint \"src/**/*.ts\"",
+    "build": "npm run lint && rm -rf lib && ./node_modules/.bin/tsc"
   },
   "dependencies": {
     "@types/jszip": "0.0.32",

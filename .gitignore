@@ -1,7 +1,5 @@
 node_modules
 .idea
 .DS_Store
-build
-*.css.d.ts
 npm-debug.*
 coverage
